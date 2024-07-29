@@ -1,4 +1,5 @@
 @import './header.scss';
+@import './container.scss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -21,6 +22,7 @@
 body {
   font-family: var(font-family);
   line-height: 1.5;
+  background-color: #0a1601;
 }
 
 h1,
@@ -31,6 +33,10 @@ h5,
 h6,
 p {
   margin: 0;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 ul,
