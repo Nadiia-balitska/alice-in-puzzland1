@@ -1,0 +1,112 @@
+.play_wrapper_img {
+  border: 0.51px solid #bcbcbc;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.title_play {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffe000;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 28px;
+}
+.how_to_play_img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.play_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.step_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.step_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+
+  border-radius: 40px;
+  padding: 8px 16px;
+  width: 287px;
+  height: 76px;
+  background: #ffe000;
+}
+.step_number {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.step_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (min-width: 1440px) {
+  .play_wrapper_img {
+    border: 1px solid #bcbcbc;
+    border-radius: 40px;
+    width: 632px;
+    height: 354px;
+    position: relative;
+    box-shadow: 4px 4px 24px 8px rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+  }
+  .how_to_play_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 40px;
+    position: absolute;
+    border: none;
+  }
+
+  .play_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+  }
+  .step_list {
+    gap: 32px;
+    width: 524px;
+    height: 356px;
+  }
+  .step_item {
+    width: 524px;
+    height: 56px;
+  }
+  .title_play {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffe000;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+  }
+}

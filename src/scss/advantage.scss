@@ -1,22 +1,19 @@
 .adventage_list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  li {
-    width: calc(100% - 2 * 178px) / 3;
-  }
-}
-.adventage_title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1.25;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #ffe000;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 80px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1440px) {
+  .adventage_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .adventage_item {
+    width: calc((100% - 2 * 178px) / 3);
+  }
 }

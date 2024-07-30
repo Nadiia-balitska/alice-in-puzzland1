@@ -1,5 +1,59 @@
-<section class="container">
-  <div>
-    <img src="../" alt="" />
+<section>
+  <div class="container">
+    <h2 class="title_play">HOW TO PLAY</h2>
+    <div class="play_wrapper">
+      <div class="play_wrapper_img">
+        <picture class="how_to_play_img">
+          <source
+            srcset="
+              ../img/howToPlay/howToPlay_desc.png    1x,
+              ../img/howToPlay/howToPlay_desc@2x.png 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ../img/howToPlay/howToPlay_mobile.png    1x,
+              ../img/howToPlay/howToPlay_mobile@2x.png 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            width="632"
+            height="354"
+            class="play-img"
+            src="../img/howToPlay/howToPlay_desc.png"
+            alt="avatar"
+          />
+        </picture>
+      </div>
+
+      <!-- <div class="step_wrapper"> -->
+      <ul class="step_list">
+        <li class="step_item">
+          <h3 class="step_number">1</h3>
+          <p class="step_text">
+            Swap adjacent pieces to match 3 or more similar tiles
+          </p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">2</h3>
+          <p class="step_text">
+            Achieve the level objectives before you run out of moves
+          </p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">3</h3>
+          <p class="step_text">Use magical boosters to clear difficult tiles</p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">4</h3>
+          <p class="step_text">
+            Collect special items as you progress to trigger surprising effects
+          </p>
+        </li>
+      </ul>
+      <!-- </div> -->
+    </div>
   </div>
 </section>

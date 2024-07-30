@@ -1,0 +1,61 @@
+.disclaimer_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 32px;
+  width: 288px;
+  height: 275px;
+  //   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.disclaimer_title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffe000;
+  font-family: 'Poppins', sans-serif;
+}
+.footer_list {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+}
+.disclaimer_routes {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.nav-item {
+}
+.nav-link {
+}
+
+@media only screen and (min-width: 1440px) {
+  .discleimer_routes {
+  }
+  .footer_list {
+    width: 1280px;
+    height: 41px;
+    justify-content: space-between;
+  }
+  .disclaimer_text {
+    margin-bottom: 80px;
+    padding: 0 77px;
+    font-size: 36px;
+  }
+  .nav-item {
+  }
+  .nav-link {
+  }
+}
