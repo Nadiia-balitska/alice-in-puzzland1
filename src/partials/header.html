@@ -1,67 +1,79 @@
-<div class="header-container">
-  <a href="./index.html" class="header-logo-link">
-    <img src="../img/logo.png" />
-    Alice in Puzzland</a
-  >
-  <nav class="navigation">
-    <ul class="">
-      <li class="">
-        <a href="./index.html" class="">About the game</a>
-      </li>
-      <li class="">
-        <a href="./index.html" class="">Gallery</a>
-      </li>
-      <li class="">
-        <a href="./index.html" class="">Benefits</a>
-      </li>
-      <li class="">
-        <a href="./index.html" class="">Advantages</a>
-      </li>
-      <li class="">
-        <a href="./index.html" class="">How to play</a>
-      </li>
-      <li class="">
-        <a href="./index.html" class="">FAQ</a>
-      </li>
-    </ul>
-  </nav>
-</div>
+<div class="header">
+  <div class="header-desktop">
+    <a href="./index.html" class="header-logo-link">
+      <img src="../img/logo.png" width="48" height="48" />
+      Alice in Puzzland</a
+    >
+    <nav>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="./index.html" class="">About the game</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html" class="">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html" class="">Benefits</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html" class="">Advantages</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html" class="">How to play</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html" class="">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-<div class="mobile-menu-container">
-  <div class="burger-container">
-    <div class="mobile-menu__header">
-      <button type="button" class="mobile-menu__button">
-        <svg class="mobile-menu__icon">
-          <use href="./img/icons.svg#close"></use>
-        </svg>
-      </button>
-    </div>
+  <!-------------- Mobile menu ----------->
+  <div class="header-mobile">
+    <a href="./index.html">
+      <img src="../img/logo.png" width="32" height="32" />
+    </a>
+    <button
+      class="menu-toggle js-open-menu is-open"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg width="24" height="24">
+        <use href="../img/icons.svg#menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="modal-btn menu-toggle js-close-menu" type="button">
+      <svg class="modal-icon" width="24" height="24">
+        <use href="../img/icons.svg#close"></use>
+      </svg>
+    </button>
 
     <nav class="navigation-burger">
-      <ul class="site-nav-burger">
-        <ul class="">
-          <li class="">
-            <a href="./index.html" class="">Home</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">About the game</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">Gallery</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">Benefits</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">Advantages</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">How to play</a>
-          </li>
-          <li class="">
-            <a href="./index.html" class="">FAQ</a>
-          </li>
-        </ul>
+      <ul class="mobile-menu list">
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link current">Home</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">About the game</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">Gallery</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">Benefits</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">Advantages</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">How to play</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link">FAQ</a>
+        </li>
       </ul>
     </nav>
   </div>
