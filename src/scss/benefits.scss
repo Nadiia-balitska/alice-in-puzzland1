@@ -1,0 +1,36 @@
+.benefits_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 73px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  p {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffa500;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+.benefits_title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffe000;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
