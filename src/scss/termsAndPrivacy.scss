@@ -1,0 +1,56 @@
+.terms_title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.terms_wrapper {
+  padding: 32px 16px;
+  display: flex;
+  margin: 0 auto;
+  gap: 15px;
+  width: 288px;
+
+  //   height: auto;
+  flex-direction: column;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+.text_subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+
+  .text_subtitle:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .subtitle {
+  }
+  .text_subtitle {
+  }
+  .terms_title {
+  }
+  .terms_wrapper {
+    padding: 64px 296px;
+    width: 1440px;
+  }
+}
