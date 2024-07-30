@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="arrow_up" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 11.060l-8 8 1.88 1.88 6.12-6.107 6.12 6.107 1.88-1.88-8-8z"></path>
+</symbol>
+<symbol id="arrow_down" viewBox="0 0 32 32">
+<path fill="#fff4a6" style="fill: var(--color2, #fff4a6)" opacity="0.4" d="M9.88 11.060l6.12 6.107 6.12-6.107 1.88 1.88-8 8-8-8 1.88-1.88z"></path>
+</symbol>
+<symbol id="close" viewBox="0 0 32 32">
+<path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.467-7.453-1.867 1.88 7.453 7.453-7.453 7.453 1.867 1.88 7.467-7.453 7.453 7.453 1.88-1.88-7.467-7.453 7.467-7.453z"></path>
+</symbol>
+<symbol id="menu" viewBox="0 0 32 32">
+<path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M4 24h24v-2.667h-24v2.667zM4 17.333h24v-2.667h-24v2.667zM4 8v2.667h24v-2.667h-24z"></path>
+</symbol>
+</defs>
+</svg>
