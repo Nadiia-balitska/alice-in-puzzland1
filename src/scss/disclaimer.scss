@@ -9,7 +9,6 @@
   margin-bottom: 32px;
   width: 288px;
   height: 275px;
-  //   display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -21,41 +20,89 @@
   text-transform: uppercase;
   color: #ffe000;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 28px;
+  text-align: center;
 }
 .footer_list {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
+
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #fff4a6;
   font-family: 'Poppins', sans-serif;
   display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.rights {
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+
+  padding: 8px 0px;
+  width: 288px;
+  height: 56px;
 }
 .disclaimer_routes {
   display: flex;
-  justify-content: space-between;
-  gap: 32px;
-}
-.nav-item {
-}
-.nav-link {
+  text-align: end;
+  flex-direction: column;
+  gap: 16px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media only screen and (min-width: 1440px) {
-  .discleimer_routes {
+  .disclaimer_routes {
+    flex-direction: row;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .disclaimer_title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffe000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 74px;
   }
   .footer_list {
-    width: 1280px;
-    height: 41px;
+    font-size: 20px;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    text-align: center;
+    gap: 406px;
+  }
+  .rights {
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    order: -1;
   }
   .disclaimer_text {
     margin-bottom: 80px;
     padding: 0 77px;
     font-size: 36px;
-  }
-  .nav-item {
-  }
-  .nav-link {
+    width: 1280px;
+    height: 225px;
   }
 }
