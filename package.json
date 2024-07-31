@@ -11,6 +11,7 @@
     "deploy": "netlify deploy -p"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
     "glob": "^8.1.0",
     "netlify-cli": "^17.30.0",
     "sass": "^1.77.6",
@@ -22,6 +23,7 @@
   "author": "Andrii Kyrylenko <z9877969@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "accordion-js": "^3.3.4",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }

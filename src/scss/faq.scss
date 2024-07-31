@@ -1,0 +1,121 @@
+.ac.faq-list-item {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.ac .ac-trigger.faq-btn {
+  color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 21px;
+  padding-left: 10px;
+  transition: background 0.3s;
+}
+.ac.faq-list-item.is-active .ac-panel {
+  display: block;
+}
+
+.ac .ac-panel .ac-text.faq-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ac.faq-list-item.is-active .ac-header.faq-list-item-title .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.button-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.arrow-icon {
+  transition: transform 0.5s ease-in-out;
+}
+.arrow-icon-container {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #endregion mobile css */
+
+/* #region desktop css */
+
+@media screen and (min-width: 1440px) {
+  .ac.faq-list-item.is-active .ac-panel {
+    display: block;
+  }
+  .faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 21px;
+  }
+  .ac.faq-list-item {
+    width: 1064px;
+    height: 48px;
+    margin-bottom: 21px;
+  }
+  .section-name {
+    padding: 0px 108px;
+    width: 1280px;
+    min-height: 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-1 {
+    order: 1;
+  }
+
+  .item-2 {
+    order: 3;
+  }
+
+  .item-3 {
+    order: 5;
+  }
+
+  .item-4 {
+    order: 2;
+  }
+
+  .item-5 {
+    order: 4;
+  }
+
+  .item-6 {
+    order: 6;
+  }
+  .item-7 {
+    order: 7;
+  }
+  .item-8 {
+    order: 8;
+  }
+  .item-9 {
+    order: 9;
+  }
+  .item-10 {
+    order: 10;
+  }
+}
+/* #endregion desktop css */

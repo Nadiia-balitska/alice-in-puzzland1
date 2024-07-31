@@ -16,4 +16,16 @@
   .adventage_item {
     width: calc((100% - 2 * 178px) / 3);
   }
+  .advent_title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffe000;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
 }

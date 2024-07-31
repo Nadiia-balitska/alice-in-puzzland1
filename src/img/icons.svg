@@ -12,5 +12,9 @@
 <symbol id="menu" viewBox="0 0 32 32">
 <path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M4 24h24v-2.667h-24v2.667zM4 17.333h24v-2.667h-24v2.667zM4 8v2.667h24v-2.667h-24z"></path>
 </symbol>
+ <symbol id="icon-accordion-down" viewBox="0 0 32 32">
+            <path fill="none" stroke="#fafafa" style="stroke:var(--color1, #fafafa)" stroke-width="3.2" d="m24 12-8 8-8-8"/>
+        </symbol>
+
 </defs>
 </svg>
