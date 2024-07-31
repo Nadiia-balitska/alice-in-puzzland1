@@ -12,9 +12,16 @@
 <symbol id="menu" viewBox="0 0 32 32">
 <path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M4 24h24v-2.667h-24v2.667zM4 17.333h24v-2.667h-24v2.667zM4 8v2.667h24v-2.667h-24z"></path>
 </symbol>
- <symbol id="icon-accordion-down" viewBox="0 0 32 32">
-            <path fill="none" stroke="#fafafa" style="stroke:var(--color1, #fafafa)" stroke-width="3.2" d="m24 12-8 8-8-8"/>
-        </symbol>
-
+<symbol id="icon-accordion-down" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke:var(--color1, #fafafa)" stroke-width="3.2" d="m24 12-8 8-8-8"/>
+</symbol>
+<symbol id="icon-left" viewBox="0 0 32 32">
+<path fill="#cecbcb" style="fill: var(--color1, #cecbcb)" d="M16 0.18c8.701 0 15.754 7.053 15.754 15.754s-7.053 15.754-15.754 15.754c-8.701 0-15.754-7.053-15.754-15.754s7.053-15.754 15.754-15.754z"></path>
+<path fill="#000" style="fill: var(--color2, #000)" d="M21.745 7.929l-1.753-1.743-9.738 9.748 9.748 9.748 1.743-1.743-8.005-8.005 8.005-8.005z"></path>
+</symbol>
+<symbol id="icon-right" viewBox="0 0 32 32">
+<path fill="#cecbcb" style="fill: var(--color1, #cecbcb)" d="M16 0.18c8.701 0 15.754 7.053 15.754 15.754s-7.053 15.754-15.754 15.754c-8.701 0-15.754-7.053-15.754-15.754s7.053-15.754 15.754-15.754z"></path>
+<path fill="#000" style="fill: var(--color2, #000)" d="M10.206 24.037l1.743 1.743 9.846-9.846-9.846-9.846-1.743 1.743 8.103 8.103-8.103 8.103z"></path>
+</symbol>
 </defs>
 </svg>
