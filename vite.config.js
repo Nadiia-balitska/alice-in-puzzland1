@@ -53,6 +53,6 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/alice-in-puzzland',
+    base: '/alice-in-puzzland/',
   };
 });
