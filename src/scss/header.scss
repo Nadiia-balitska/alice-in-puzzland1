@@ -31,9 +31,12 @@
 
 .header {
   border-bottom: 1px solid #e9e8e4;
+  // position: fixed;
 }
 
 .header-desktop {
+  // position: fixed;
+  // z-index: 999;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,40 +1,30 @@
-.ac.faq-list-item {
-  margin-top: 20px;
+.faq {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: transparent;
-  border: none;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @include media($desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background-position: left bottom, right bottom, center;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+
+    @include media($desktop) {
+      margin-bottom: 56px;
+    }
+  }
 }
 
-.ac .ac-trigger.faq-btn {
-  color: #fafafa;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 21px;
-  padding-left: 10px;
-  transition: background 0.3s;
-}
-.ac.faq-list-item.is-active .ac-panel {
-  display: block;
-}
-
-.ac .ac-panel .ac-text.faq-text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
-  color: #fff4a6;
-  font-family: 'Poppins', sans-serif;
-}
-
-// .ac.faq-list-item.is-active .ac-header.faq-list-item-title .arrow-icon {
-//   transform: rotate(180deg);
-// }
-.ac-header.active .accordion-icon {
-  // stroke: grey;
-  transform: rotate(180deg);
-}
-
-.button-text {
+.ac-header {
   font-weight: 400;
   font-size: 32px;
   line-height: 1.25;
@@ -42,84 +32,130 @@
   color: #fff4a6;
   font-family: 'Poppins', sans-serif;
 }
+.accordion {
+  width: 100%;
+  max-width: 840px;
+  margin: 20px auto;
+}
+.accordion-item {
+  border-radius: 8px;
+  margin-bottom: 8px;
 
-// .arrow-icon {
-//   transition: transform 0.5s ease-in-out;
-// }
-.arrow-icon-container {
-  border: none;
-  border-radius: 50%;
-  background-color: transparent;
-  width: 49px;
-  height: 49px;
+  @include media($desktop) {
+    margin-bottom: 16px;
+  }
+}
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px 16px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+  @include media($desktop) {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    padding: 16px 24px;
+  }
+}
+
+.accordion-header.active {
+  font-weight: 400;
+}
+
+.accordion-content {
+  font-size: 16px;
+
+  font-weight: 200;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #fff4a6;
+  font-family: 'Poppins', sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 16px;
+
+  @include media($desktop) {
+    font-size: 32px;
+    font-weight: 400;
+
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    padding: 0 24px;
+  }
+}
+.accordion-content p {
+  margin: 8px 0;
+  @include media($desktop) {
+    margin: 16px 0;
+  }
+}
+.accordion-header.active .accordion-icon {
+  // fill: #2bab0e;
+  transform: rotate(180deg);
+}
+
+.circle {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 24px;
+  height: 24px;
+
+  @include media($desktop) {
+    width: 32px;
+    height: 32px;
+  }
 }
 
-/* #endregion mobile css */
-
-/* #region desktop css */
-
-@media screen and (min-width: 1440px) {
-  .ac.faq-list-item.is-active .ac-panel {
-    display: block;
-  }
-  .faq-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 21px;
-  }
-  .ac.faq-list-item {
-    width: 1064px;
-    height: 48px;
-    margin-bottom: 21px;
-  }
-  .section-name {
-    padding: 0px 108px;
-    width: 1280px;
-    min-height: 624px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .item-1 {
-    order: 1;
-  }
-
-  .item-2 {
-    order: 3;
-  }
-
-  .item-3 {
-    order: 5;
-  }
-
-  .item-4 {
-    order: 2;
-  }
-
-  .item-5 {
-    order: 4;
-  }
-
-  .item-6 {
-    order: 6;
-  }
-  .item-7 {
-    order: 7;
-  }
-  .item-8 {
-    order: 8;
-  }
-  .item-9 {
-    order: 9;
-  }
-  .item-10 {
-    order: 10;
-  }
+.container.accord {
+  position: relative;
 }
-/* #endregion desktop css */
+
+// .yellow {
+//   position: absolute;
+//   left: 13px;
+//   bottom: -34px;
+
+//   @include media($mobile) {
+//     display: none;
+//   }
+// }
+
+// .gold {
+//   position: absolute;
+//   top: -95px;
+//   right: 97px;
+
+//   @include media($mobile) {
+//     display: none;
+//   }
+// }
+
+// .green {
+//   position: absolute;
+//   left: 50%;
+//   bottom: -144px;
+
+//   @include media($mobile) {
+//     display: none;
+//   }
+// }
+
+// .blue {
+//   position: absolute;
+//   left: 152px;
+//   top: -13px;
+
+//   @include media($mobile) {
+//     display: none;
+//   }
+// }
