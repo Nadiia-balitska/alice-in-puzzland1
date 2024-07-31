@@ -26,7 +26,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.ac.faq-list-item.is-active .ac-header.faq-list-item-title .arrow-icon {
+// .ac.faq-list-item.is-active .ac-header.faq-list-item-title .arrow-icon {
+//   transform: rotate(180deg);
+// }
+.ac-header.active .accordion-icon {
+  // stroke: grey;
   transform: rotate(180deg);
 }
 
@@ -39,9 +43,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.arrow-icon {
-  transition: transform 0.5s ease-in-out;
-}
+// .arrow-icon {
+//   transition: transform 0.5s ease-in-out;
+// }
 .arrow-icon-container {
   border: none;
   border-radius: 50%;
