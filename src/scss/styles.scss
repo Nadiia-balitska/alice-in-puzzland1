@@ -1,5 +1,7 @@
 @import './header.scss';
 @import './hero.scss';
+@import './about.scss';
+@import './gallery.scss';
 @import './container.scss';
 @import './benefits.scss';
 @import './advantage.scss';
@@ -55,4 +57,8 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+
+a {
+  cursor: pointer;
 }

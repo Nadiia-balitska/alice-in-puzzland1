@@ -1,4 +1,4 @@
-.hero-section {
+.hero {
   position: relative;
 }
 
@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 0;
 
-    background-image: url('../img/VectorDecor.png');
+    background-image: url('../img/hero/VectorDecor.png');
     background-color: transparent;
     width: 100%;
     height: 136px;
@@ -18,12 +18,12 @@
 
   .hero-bg-fog {
     position: absolute;
-    top: 186px;
-    right: -30px;
+    bottom: 0px;
+    right: 0;
     margin: 0 auto;
     padding: 0;
 
-    background-image: url('../img/fog@1x.png');
+    background-image: url('../img/hero/fog@1x.png');
     background-color: transparent;
     width: 100%;
     height: 424px;
@@ -31,6 +31,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0;
   }
 }
 
@@ -39,20 +40,34 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-bg {
-    background-image: url('../img/VectorDecor@2x.png');
+    background-image: url('../img/hero/VectorDecor@2x.png');
   }
   .hero-bg-fog {
-    background-image: url('../img/fog@2x.png');
+    background-image: url('../img/hero/fog@2x.png');
   }
 }
 
 .hero-wrap {
   display: flex;
-  gap: 17px;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-wrap {
+    display: flex;
+    gap: 17px;
+  }
 }
 
 .hero-left-side {
-  width: 400px;
+  width: 288px;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-left-side {
+    width: 400px;
+  }
 }
 
 .hero-title,
@@ -62,6 +77,7 @@
   color: $_accent_color;
   margin-bottom: 24px;
   line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 .hero-span {
@@ -74,6 +90,11 @@
   font-weight: 500;
   color: rgb(255, 244, 166);
   margin-bottom: 32px;
+  letter-spacing: 0.012em;
+}
+
+.hero-google {
+  margin-bottom: 37px;
 }
 
 .hero-google:hover {
@@ -92,10 +113,26 @@
   display: block;
 }
 
+.hero-img {
+  display: none;
+}
+
+.hero-img-mobile {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 1440px) {
   .hero-img {
+    display: block;
+
     height: 442px;
     width: 787px;
     z-index: 100;
+  }
+
+  .hero-img-mobile {
+    display: none;
   }
 }
