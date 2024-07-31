@@ -39,7 +39,8 @@
   justify-content: space-between;
   padding: 30px 80px;
   height: 108px;
-  width: 100%;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1439px) {
@@ -95,7 +96,8 @@
   |============================
 */
 .header-mobile {
-  width: 100%;
+  width: 320px;
+  margin: 0 auto;
   height: 56px;
   padding: 4px 60px 4px 16px;
 
@@ -163,8 +165,4 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.mobile-menu .current {
-  color: var(--ocean-color);
 }
