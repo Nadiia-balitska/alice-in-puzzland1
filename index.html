@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/alice-in-puzzland1/assets/logo-d2f9f441.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alice in Puzzland</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/alice-in-puzzland1/assets/main-f5f4f211.js"></script>
+    <link rel="stylesheet" href="/alice-in-puzzland1/assets/main-054947cb.css">
+  </head>
+  <body>
+    <div class="header">
+  <div class="header-desktop">
+    <a href="./index.html" class="header-logo-link">
+      <img src="../img/logo.png" alt="logo" width="48" height="48" />
+      Alice in Puzzland</a
+    >
+    <nav>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="./index.html#about" class="">About the game</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html#gallery" class="">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html#benefits" class="">Benefits</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html#advantages" class="">Advantages</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html#play" class="">How to play</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index.html#faq" class="">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-------------- Mobile menu ----------->
+  <div class="header-mobile">
+    <a href="./index.html">
+      <img src="../img/logo.png" alt="logo" width="32" height="32" />
+    </a>
+    <button
+      class="menu-toggle js-open-menu is-open"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg width="24" height="24">
+        <use href="../img/sprite.svg#menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="modal-btn menu-toggle js-close-menu" type="button">
+      <svg class="modal-icon" width="24" height="24">
+        <use href="../img/sprite.svg#close"></use>
+      </svg>
+    </button>
+
+    <nav class="navigation-burger">
+      <ul class="mobile-menu list">
+        <li class="navigation-burger-item">
+          <a href="./index.html" class="link current">Home</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#about" class="link">About the game</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#gallery" class="link">Gallery</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#benefits" class="link">Benefits</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#advantages" class="link">Advantages</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#play" class="link">How to play</a>
+        </li>
+        <li class="navigation-burger-item">
+          <a href="#faq" class="link">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+    <main>
+      <section class="hero-section">
+  <div class="hero-bg"></div>
+  <div class="hero">
+    <div class="container">
+      <div class="hero-wrap">
+        <div class="hero-left-side">
+          <h1 class="hero-title">
+            Alice <span class="hero-span">in Puzzeland</span>
+          </h1>
+          <p class="hero-text">
+            Dive into "Alice Blast", where every level promises a burst of fun
+            and a dash of challenge! Don't miss out on this explosive adventure.
+          </p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.cookapps.playgrounds.ff.aliceblast"
+            class="hero-link"
+            target="_blank"
+          >
+            <img
+              srcset="
+                ../img/hero/GooglePlayDefault@1x.png,
+                ../img/hero/GooglePlayDefault@2x
+              "
+              src="../img/hero/GooglePlayDefault@1x.png"
+              alt="Link to Google Play"
+              class="hero-google"
+              width="204"
+              height="59"
+            />
+
+            <img
+              srcset="
+                ../img/hero/GooglePlayActive@1x.png,
+                ../img/hero/GooglePlayActive@2x.png
+              "
+              src="../img/hero/GooglePlayActive@1x.png"
+              alt="Link to Google Play"
+              class="hero-google-active"
+              width="204"
+              height="59"
+            />
+          </a>
+        </div>
+        <img
+          srcset="../img/hero/hero@1x.png, ../img/hero/hero@2x.png"
+          src="../img/hero@1x.png"
+          alt="Alice in Puzzeland"
+          class="hero-img"
+          width="787"
+          height="442"
+        />
+      </div>
+      <div class="hero-bg-fog"></div>
+    </div>
+    <img
+      srcset="../img/hero/hero_mobile@1x.png, ../img/hero/hero_mobile@2x.png"
+      src="../img/hero_mobile@1x.png"
+      alt="Alice in Puzzeland"
+      class="hero-img-mobile"
+    />
+  </div>
+</section>
+
+      <section id="about">
+  <div class="container">
+    <h2 class="about-title">About the game</h2>
+    <div class="about-wrap">
+      <p class="about-text">
+        "Alice Blast" is a dynamic match-3 puzzle game that transports players
+        into a whimsical world inspired by Alice in Wonderland. With hundreds of
+        levels, each offering unique puzzles and colorful animations, players
+        match and blast their way through a fantastical landscape, unlocking
+        magical power-ups and meeting classic characters.
+      </p>
+      <img
+        srcset="../img/about/about@1x.png, ../img/about/about@2x.png"
+        src="../img/about/about@1x.png"
+        alt="Alice in Puzzeland"
+        class="about-img"
+        width="350"
+        height="673"
+      />
+    </div>
+  </div>
+</section>
+
+      <section id="gallery" class="gallery">
+  <div class="container gallery-container">
+    <h2 class="gallery-title">Gallery</h2>
+    <img
+      srcset="../img/gallery/gallery@1x.png, ../img/gallery/gallery@2x.png"
+      src="../img/gallery/gallery@1x.png"
+      alt="Alice in Puzzeland"
+      class="gallery-img"
+    />
+
+    <!-- Slider main container -->
+    <div class="swiper horisontal-swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ../img/gallery/slides/1@1x.png,
+              ../img/gallery/slides/1@2x.png
+            "
+            src="../img/gallery/slides/1@1x.png"
+            alt="Addictive Play"
+            class="swiper-img"
+            width="400"
+            height="711"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ../img/gallery/slides/2@1x.png,
+              ../img/gallery/slides/2@2x.png
+            "
+            src="../img/gallery/slides/2@1x.png"
+            alt="Collect Items to clear Missions"
+            class="swiper-img"
+            width="400"
+            height="711"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ../img/gallery/slides/3@1x.png,
+              ../img/gallery/slides/3@2x.png
+            "
+            src="../img/gallery/slides/3@1x.png"
+            alt="Rescue Friends"
+            class="swiper-img"
+            width="400"
+            height="711"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ../img/gallery/slides/4@1x.png,
+              ../img/gallery/slides/4@2x.png
+            "
+            src="../img/gallery/slides/4@1x.png"
+            alt="Powerful Booster"
+            class="swiper-img"
+            width="400"
+            height="711"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            srcset="
+              ../img/gallery/slides/5@1x.png,
+              ../img/gallery/slides/5@2x.png
+            "
+            src="../img/gallery/slides/5@1x.png"
+            alt="Come and join the FUN"
+            class="swiper-img"
+            width="400"
+            height="711"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Кастомні стрілки з SVG -->
+    <div class="custom-prev">
+      <svg width="65" height="65">
+        <use href="../img/sprite.svg#icon-left"></use>
+      </svg>
+    </div>
+    <div class="custom-next">
+      <svg width="65" height="65">
+        <use href="../img/sprite.svg#icon-right"></use>
+      </svg>
+    </div>
+  </div>
+</section>
+
+      <section id="benefits">
+  <div class="container">
+    <h2 class="title">BENEFITS</h2>
+    <ul class="benefits_list">
+      <li>
+        <img src="../img/benefits/score.png" alt="score" />
+        <p>Stars</p>
+      </li>
+      <li>
+        <img src="../img/benefits/downloads.png" alt="downloads" />
+        <p>Downloads</p>
+      </li>
+      <li>
+        <img src="../img/benefits/comments.png" alt="reviews" />
+        <p>Reviews</p>
+      </li>
+      <li>
+        <img src="../img/benefits/choice.png" alt="choice" />
+        <p>Online/Offline</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="advantages">
+  <div class="container">
+    <h2 class="title advent_title">ADVaNTAGES</h2>
+    <ul class="adventage_list">
+      <li class="adventage_item">
+        <img src="../img/advantage/thematic.png" alt="thematic" />
+      </li>
+      <li class="adventage_item">
+        <img src="../img/advantage/uniq.png" alt="unique" />
+      </li>
+      <li class="adventage_item">
+        <img src="../img/advantage/reqular.png" alt="regular" />
+      </li>
+      <li class="adventage_item">
+        <img src="../img/advantage/inter.png" alt="interactive" />
+      </li>
+      <li class="adventage_item">
+        <img src="../img/advantage/social.png" alt="social integration" />
+      </li>
+      <li class="adventage_item">
+        <img src="../img/advantage/family.png" alt="family-friendly fun" />
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="play">
+  <div class="container">
+    <h2 class="title_play">HOW TO PLAY</h2>
+    <div class="play_wrapper">
+      <div class="play_wrapper_img">
+        <picture class="how_to_play_img">
+          <source
+            srcset="
+              ../img/howToPlay/howToPlay_desc.png    1x,
+              ../img/howToPlay/howToPlay_desc@2x.png 2x
+            "
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="
+              ../img/howToPlay/howToPlay_mobile.png    1x,
+              ../img/howToPlay/howToPlay_mobile@2x.png 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            width="632"
+            height="354"
+            class="play-img"
+            src="../img/howToPlay/howToPlay_desc.png"
+            alt="avatar"
+          />
+        </picture>
+      </div>
+
+      <ul class="step_list">
+        <li class="step_item">
+          <h3 class="step_number">1</h3>
+          <p class="step_text">
+            Swap adjacent pieces to match 3 or more similar tiles
+          </p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">2</h3>
+          <p class="step_text">
+            Achieve the level objectives before you run out of moves
+          </p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">3</h3>
+          <p class="step_text">Use magical boosters to clear difficult tiles</p>
+        </li>
+        <li class="step_item">
+          <h3 class="step_number">4</h3>
+          <p class="step_text">
+            Collect special items as you progress to trigger surprising effects
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section id="faq" class="section faq">
+  <div class="container accord">
+    <h2 class="title">FAQ</h2>
+
+
+    <ul class="accordion">
+      <li class="accordion-item item-1">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >How do I unlock more levels?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p>Keep playing to naturally progress and unlock new levels</p>
+        </div>
+      </li>
+
+
+       <li class="accordion-item item-2">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >Can I play with friends?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p>Yes, you can connect the game to social media to play with friends.</p>
+        </div>
+      </li>
+
+
+       <li class="accordion-item item-3">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >Are there in-game purchases?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Yes, there are options to buy special items and power-ups.</p>
+        </div>
+      </li>
+
+
+
+       <li class="accordion-item item-4">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >What do I do when I'm stuck on a level?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Try using different strategies or power-ups to clear the level.</p>
+        </div>
+      </li>
+
+
+       <li class="accordion-item item-5">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >How do I unlock more levels?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p>Keep playing to naturally progress and unlock new levels</p>
+        </div>
+      </li>
+
+
+      <li class="accordion-item item-6">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >Is there a way to play older levels?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p>Yes, you can go back and replay any completed level.</p>
+        </div>
+      </li>
+
+
+      <li class="accordion-item item-7">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >What are the special events? </span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Special events offer unique challenges for a limited time, with
+            special rewards.</p>
+        </div>
+      </li>
+
+
+      <li class="accordion-item item-8">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >How do power-ups work? </span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Power-ups can clear larger areas or specific types of tiles.</p>
+        </div>
+      </li>
+
+
+      <li class="accordion-item item-9">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >Can I play without an internet connection?</span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Yes, you can play offline, but some features require an internet
+            connection.</p>
+        </div>
+      </li>
+
+
+      <li class="accordion-item item-10">
+        <div class="accordion-header">
+          <span class="ac-header faq-list-item-title"
+            >Is there a daily reward system? </span
+          >
+          <div class="circle">
+            <svg
+              class="accordion-icon"
+              width="24"
+              height="16"
+              viewBox="0 0 24 16"
+              fill="none"
+            >
+              <path
+                d="M2.82 0.455811L12 9.61581L21.18 0.455811L24 3.27581L12 15.2758L0 3.27581L2.82 0.455811Z"
+                fill="#FFF4A6"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="accordion-content">
+          <p> Yes, logging in daily will give you special bonuses.
+          </p></p>
+        </div>
+      </li>
+ 
+    </ul>
+  </div>
+</section>
+
+
+    </main>
+    <footer>
+  <div class="container">
+    <h2 class="disclaimer_title">DISCLAIMER</h2>
+    <p class="disclaimer_text">
+      STARTLUCKYHUB.COM IS A PLATFORM FOR HAVING FUN. THE PROBABILITY OF WINNING
+      PLAYING THIS GAME CANNOT BE CONSIDERED THE SAME AS WINNING IN REAL LIFE
+      GAMES. GAME IS AVAILABLE TO ADULT AUDIENCES OVER 18 YEARS OF AGE. ENJOY
+      PLAYING THIS GAME!
+    </p>
+    <div class="footer_list">
+      <ul class="disclaimer_routes">
+        <li>
+          <a href="./privacyPolicy.html">Privacy policy</a>
+        </li>
+
+        <li>
+          <a href="./termsConditions.html">Terms and conditions</a>
+        </li>
+      </ul>
+      <p class="rights">All rights reserved startluckyhub.com | 2024</p>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+  </body>
+</html>
