@@ -12,9 +12,11 @@
 <symbol id="menu" viewBox="0 0 32 32">
 <path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M4 24h24v-2.667h-24v2.667zM4 17.333h24v-2.667h-24v2.667zM4 8v2.667h24v-2.667h-24z"></path>
 </symbol>
-<symbol id="icon-accordion-down" viewBox="0 0 32 32">
-<path fill="none" stroke="#fafafa" style="stroke:var(--color1, #fafafa)" stroke-width="3.2" d="m24 12-8 8-8-8"/>
+
+<symbol id="icon-accordion" viewBox="0 0 48 32">
+<path fill="#fff4a6" style="fill: var(--color1, #fff4a6)" d="M5.64 0.912l18.36 18.32 18.36-18.32 5.64 5.64-24 24-24-24 5.64-5.64z"></path>
 </symbol>
+
  <symbol id="icon-left" viewBox="0 0 65 65">
     <rect x="0.5" y="0.365601" width="64" height="64" rx="32" fill="#CECBCB"/>
     <path d="M44.17 16.1056L40.61 12.5656L20.83 32.3656L40.63 52.1656L44.17 48.6256L27.91 32.3656L44.17 16.1056Z" fill="black"/>
