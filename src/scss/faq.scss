@@ -13,7 +13,6 @@
 .ac-header {
   font-weight: 400;
   font-size: 16px;
-
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #fff4a6;
@@ -25,14 +24,17 @@
 }
 .accordion {
   width: 100%;
-  max-width: 840px;
-  margin: 20px auto;
-}
-.accordion-item {
-  margin-bottom: 8px;
 
   @include media($desktop) {
-    margin-bottom: 16px;
+    max-width: 1280px;
+    padding: 0px 108px;
+  }
+}
+.accordion-item {
+  margin-bottom: 32px;
+
+  @include media($desktop) {
+    margin-bottom: 24px;
   }
 }
 .accordion-item:last-child {
@@ -43,16 +45,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 9px 16px;
   cursor: pointer;
 
   @include media($desktop) {
     padding: 16px 24px;
   }
-}
-
-.accordion-header.active {
-  font-weight: 400;
 }
 
 .accordion-content {
@@ -64,19 +61,25 @@
   max-height: 0;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
-  padding: 0 16px;
 
-  @include media($desktop) {
+  @media only screen and (min-width: 1440px) {
   }
 }
 .accordion-content p {
-  margin: 8px 0;
+  margin-top: 8px;
+
   @include media($desktop) {
-    margin: 16px 0;
+    margin-top: 21px;
   }
 }
 .accordion-header.active .accordion-icon {
   transform: rotate(180deg);
+}
+.accordion-icon {
+  opacity: 0.4;
+  &:active {
+    opacity: 0;
+  }
 }
 
 .circle {
@@ -84,11 +87,11 @@
   justify-content: center;
   align-items: center;
   width: 24px;
-  height: 24px;
+  height: 25px;
 
   @include media($desktop) {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
   }
 }
 

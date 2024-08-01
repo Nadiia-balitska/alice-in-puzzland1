@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  // height: 223px;
+  // gap: 0px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -10,11 +12,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 1280px;
+
     justify-content: space-between;
-    gap: 32px;
+    // gap: 1px;
   }
   .adventage_item {
-    width: calc((100% - 2 * 178px) / 3);
+    width: calc(100% - 2 * 160px) / 3;
   }
   .advent_title {
     font-weight: 600;
