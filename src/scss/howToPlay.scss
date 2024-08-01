@@ -1,7 +1,7 @@
 .play_wrapper_img {
   border: 0.51px solid #bcbcbc;
-  width: 100%;
-  height: auto;
+  width: 288px;
+  height: 161px;
   position: relative;
   overflow: hidden;
 }
@@ -26,6 +26,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
 .step_list {
   display: flex;

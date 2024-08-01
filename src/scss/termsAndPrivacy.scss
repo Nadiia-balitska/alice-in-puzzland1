@@ -1,11 +1,13 @@
 .terms_title {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 24px;
+  width: 288px;
+  // height: 30px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #fff4a6;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
+  text-align: start;
   margin-bottom: 32px;
 }
 
@@ -46,5 +48,8 @@
   .terms_wrapper {
     padding: 64px 296px;
     width: 1440px;
+  }
+  .terms_title {
+    font-size: 36px;
   }
 }

@@ -12,6 +12,13 @@
   align-items: center;
   justify-content: center;
 }
+.disclaimer_wrapper {
+  // display: block;
+  // justify-content: center;
+  // align-items: center;
+  margin: 0 auto;
+  max-width: 320px;
+}
 .disclaimer_title {
   font-weight: 400;
   font-size: 36px;
@@ -68,6 +75,9 @@
     flex-direction: row;
     gap: 32px;
     text-align: center;
+  }
+  .disclaimer_wrapper {
+    max-width: 1440px;
   }
 
   .disclaimer_title {
