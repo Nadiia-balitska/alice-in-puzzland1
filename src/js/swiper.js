@@ -1,15 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    slidesPerView: 2.5,
-    spaceBetween: 20,
-    // Navigation arrows
-    navigation: {
-      nextEl: '.custom-next',
-      prevEl: '.custom-prev',
-    },
-    allowTouchMove: true,
-  });
+const swiper = new Swiper('.horisontal-swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 2.5,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.custom-next',
+    prevEl: '.custom-prev',
+  },
+  allowTouchMove: true,
 });
