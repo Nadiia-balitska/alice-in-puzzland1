@@ -75,3 +75,10 @@
 .custom-next {
   right: 80px;
 }
+
+@media only screen and (max-width: 1439px) {
+  .custom-prev,
+  .custom-next {
+    display: none;
+  }
+}
