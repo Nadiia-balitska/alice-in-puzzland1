@@ -1,0 +1,27 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="arrow_up" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 11.060l-8 8 1.88 1.88 6.12-6.107 6.12 6.107 1.88-1.88-8-8z"></path>
+</symbol>
+<symbol id="arrow_down" viewBox="0 0 32 32">
+<path fill="#fff4a6" style="fill: var(--color2, #fff4a6)" opacity="0.4" d="M9.88 11.060l6.12 6.107 6.12-6.107 1.88 1.88-8 8-8-8 1.88-1.88z"></path>
+</symbol>
+<symbol id="close" viewBox="0 0 32 32">
+<path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M25.333 8.547l-1.88-1.88-7.453 7.453-7.467-7.453-1.867 1.88 7.453 7.453-7.453 7.453 1.867 1.88 7.467-7.453 7.453 7.453 1.88-1.88-7.467-7.453 7.467-7.453z"></path>
+</symbol>
+<symbol id="menu" viewBox="0 0 32 32">
+<path fill="#ffe000" style="fill: var(--color3, #ffe000)" d="M4 24h24v-2.667h-24v2.667zM4 17.333h24v-2.667h-24v2.667zM4 8v2.667h24v-2.667h-24z"></path>
+</symbol>
+<symbol id="icon-accordion-down" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke:var(--color1, #fafafa)" stroke-width="3.2" d="m24 12-8 8-8-8"/>
+</symbol>
+ <symbol id="icon-left" viewBox="0 0 65 65">
+    <rect x="0.5" y="0.365601" width="64" height="64" rx="32" fill="#CECBCB"/>
+    <path d="M44.17 16.1056L40.61 12.5656L20.83 32.3656L40.63 52.1656L44.17 48.6256L27.91 32.3656L44.17 16.1056Z" fill="black"/>
+  </symbol>
+<symbol id="icon-right" viewBox="0 0 65 65">
+    <rect x="0.5" y="0.365601" width="64" height="64" rx="32" fill="#CECBCB"/>
+    <path d="M20.73 48.8256L24.27 52.3656L44.27 32.3656L24.27 12.3656L20.73 15.9056L37.19 32.3656L20.73 48.8256Z" fill="black"/>
+  </symbol>
+</defs>
+</svg>
