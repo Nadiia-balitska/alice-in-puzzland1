@@ -52,6 +52,18 @@
   width: 1103px;
 }
 
+.swiper-img {
+  border: 0.72px solid rgb(233, 232, 228);
+  border-radius: 14.4px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .swiper-img {
+    border: 1px solid rgb(233, 232, 228);
+    border-radius: 20px;
+  }
+}
+
 .custom-prev,
 .custom-next {
   position: absolute;
