@@ -32,26 +32,7 @@
     </main>
     <load src="./partials/disclaimer.html" />
 
-    <script type="module">
-      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
-
-      document.addEventListener('DOMContentLoaded', function () {
-        var swiper = new Swiper('.swiper', {
-          // Optional parameters
-          direction: 'horizontal',
-          loop: true,
-          slidesPerView: 2.5,
-          spaceBetween: 20,
-          // Navigation arrows
-          navigation: {
-            nextEl: '.custom-next',
-            prevEl: '.custom-prev',
-          },
-
-          allowTouchMove: true,
-        });
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script type="module" src="./main.js"></script>
   </body>
