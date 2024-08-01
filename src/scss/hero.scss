@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 0;
 
-    background-image: url('../img/hero/VectorDecor.png');
+    background-image: url('/img/hero/VectorDecor.png');
     background-color: transparent;
     width: 100%;
     height: 136px;
@@ -23,7 +23,7 @@
     margin: 0 auto;
     padding: 0;
 
-    background-image: url('../img/hero/fog@1x.png');
+    background-image: url('/img/hero/fog@1x.png');
     background-color: transparent;
     width: 100%;
     height: 424px;
@@ -40,10 +40,10 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-bg {
-    background-image: url('../img/hero/VectorDecor@2x.png');
+    background-image: url('/img/hero/VectorDecor@2x.png');
   }
   .hero-bg-fog {
-    background-image: url('../img/hero/fog@2x.png');
+    background-image: url('/img/hero/fog@2x.png');
   }
 }
 
