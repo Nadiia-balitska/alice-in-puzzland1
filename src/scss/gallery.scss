@@ -42,25 +42,30 @@
   }
 }
 
-@media only screen and (max-width: 1439px) {
-  .swiper {
-    display: none;
-  }
+.swiper {
+  width: 288px;
+  height: auto;
+  margin: 0 auto;
 }
 
-.swiper {
-  width: 1103px;
+@media only screen and (min-width: 1440px) {
+  .swiper {
+    display: block;
+    width: 1103px;
+  }
 }
 
 .swiper-img {
   border: 0.72px solid rgb(233, 232, 228);
   border-radius: 14.4px;
+  width: 286px;
 }
 
 @media only screen and (min-width: 1440px) {
   .swiper-img {
     border: 1px solid rgb(233, 232, 228);
     border-radius: 20px;
+    width: 400px;
   }
 }
 
